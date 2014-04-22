@@ -1,0 +1,9 @@
+
+.robo-list-item__info {
+  font-size: small;
+}
+
+.robo-list-item__conn-type {
+  height: 12px;
+  vertical-align: middle;
+}

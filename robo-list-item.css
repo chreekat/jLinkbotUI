@@ -1,13 +1,19 @@
 #proto-container {
-    position: absolute;
-    top: 2cm;
-    left: 30%;
+  position: absolute;
+  top: 2cm;
+  left: 30%;
 
-    border: solid 1px #ddd;
+  border: solid 1px hsl(225,22%,93%);
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.robo-list-item {
+  padding-bottom: 5px;
 }
 
 .robo-list-item:hover {
-  background-color: hsl(225, 95%, 92%);
+  background-color: hsl(225, 13%, 82%);
 }
 
 .robo-list-item__robo-indicator img {
@@ -19,6 +25,7 @@
 .robo-list-item__robo-id {
   font-size: 150%;
   font-weight: bold;
+  font-family: Courier, monospace;
 
   line-height: 1;
 
@@ -53,12 +60,16 @@
 }
 
 .robo-list-item__beeper, .robo-list-item__expando-tab {
-    visibility: hidden;
+  visibility: hidden;
+}
+
+.is-dropdown .robo-list-item__expando-tab {
+  visibility: visible;
 }
 
 .robo-list-item:hover .robo-list-item__beeper,
 .robo-list-item:hover .robo-list-item__expando-tab {
-    visibility: visible;
+  visibility: visible;
 }
 
 .robo-list-item__expando-tab {
@@ -66,14 +77,39 @@
 
   width: 30px;
 
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  margin-left: 8px;
+  margin-bottom: -2px;
 
-  background-color: #ddd;
+  border-top-left-radius: 5px;
 
   vertical-align: bottom;
 
   text-align: center;
+}
+
+.robo-list-item__dropdown,
+.robo-list-item__expando-tab {
+  background-color: #ddd;
+
+  border-radius: 5px;
 
   box-shadow: -1px -1px 2px #aaa;
+}
+
+.robo-list-item__dropdown {
+  margin: 2px 8px;
+
+  border-top-left-radius: 0;
+
+  padding: 4px;
+  text-align: right;
+}
+
+.is-dropdown .robo-list-item__expando-tab {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.is-usb .conn-type--zigbee {
+  display: none;
 }
