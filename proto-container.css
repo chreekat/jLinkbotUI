@@ -1,0 +1,12 @@
+#proto-container {
+  position: absolute;
+  top: 2cm;
+  left: 30%;
+
+  border: solid 1px hsl(225,22%,93%);
+  list-style-type: none;
+  padding-left: 0;
+
+  color: hsl(225, 80%, 12%);
+}
+
