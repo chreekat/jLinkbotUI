@@ -6,44 +6,44 @@
     border: solid 1px #ddd;
 }
 
-.robotHeading:hover {
+.roboListItem:hover {
   background-color: hsl(225, 95%, 92%);
 }
 
-.RobotIndicator_icon {
+.roboListItem__roboIndicator img {
   background-color: rgb(0,255,0);
   vertical-align: bottom;
 }
 
-.robotId {
+.roboListItem__roboId {
   font-size: 150%;
   line-height: 1;
   font-weight: bold;
   vertical-align: bottom;
 }
 
-.statusIndicator {
+.roboListItem__statusIndicator {
   font-size: 200%;
   vertical-align: bottom;
   line-height: 1;
   color: lightgreen;
 }
 
-.beeper img {
+.roboListItem__beeper img {
   height: 13px;
   vertical-align: middle;
 }
 
-.beeper, .expandoTab {
+.roboListItem__beeper, .roboListItem__expandoTab {
     visibility: hidden;
 }
 
-.robotHeading:hover .beeper,
-.robotHeading:hover .expandoTab {
+.roboListItem:hover .roboListItem__beeper,
+.roboListItem:hover .roboListItem__expandoTab {
     visibility: visible;
 }
 
-.expandoTab {
+.roboListItem__expandoTab {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: #ddd;
