@@ -12,25 +12,32 @@
 
 .roboListItem__roboIndicator img {
   background-color: rgb(0,255,0);
+
   vertical-align: bottom;
 }
 
 .roboListItem__roboId {
   font-size: 150%;
-  line-height: 1;
   font-weight: bold;
+
+  line-height: 1;
+
   vertical-align: bottom;
 }
 
 .roboListItem__statusIndicator {
   font-size: 200%;
-  vertical-align: bottom;
+
   line-height: 1;
+
+  vertical-align: bottom;
+
   color: lightgreen;
 }
 
 .roboListItem__beeper img {
   height: 13px;
+
   vertical-align: middle;
 }
 
@@ -44,12 +51,18 @@
 }
 
 .roboListItem__expandoTab {
+  display: inline-block;
+
+  width: 30px;
+
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+
   background-color: #ddd;
-  display: inline-block;
+
   vertical-align: bottom;
-  width: 30px;
+
   text-align: center;
+
   box-shadow: -1px -1px 2px #aaa;
 }
