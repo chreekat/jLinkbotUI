@@ -32,7 +32,18 @@
 
   vertical-align: bottom;
 
+}
+
+.is-ok .robo-list-item__status-indicator {
   color: lightgreen;
+}
+
+.is-bad .robo-list-item__status-indicator {
+  color: red;
+}
+
+.is-warn .robo-list-item__status-indicator {
+  color: yellow;
 }
 
 .robo-list-item__beeper img {
