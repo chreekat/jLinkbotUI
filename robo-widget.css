@@ -18,3 +18,22 @@
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
+
+.robo-widget__pull-tab {
+  position: absolute;
+  left: -20px;
+  top: 60px;
+  border: 1px hsl(225, 13%, 82%) solid;
+  border-right: 2px hsl(225, 8%, 96%) solid;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: hsl(225, 8%, 96%);
+  height: 30px;
+  width: 19px;
+}
+
+.robo-widget__pull-tab img {
+  position: absolute;
+  top: 12px;
+  left: 7px;
+}
