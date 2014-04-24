@@ -6,7 +6,7 @@
   background-color: hsl(225, 13%, 82%);
 }
 
-.robo-list-item__robo-indicator img {
+.robo-list-item__robo-indicator {
   background-color: rgb(0,255,0);
 
   vertical-align: bottom;
@@ -19,20 +19,22 @@
 
   line-height: 1;
 
-  vertical-align: bottom;
+  position: relative;
+  bottom: -7px;
 }
 
 .robo-list-item__status-indicator {
-  font-size: 200%;
-
-  line-height: 1;
-
-  vertical-align: bottom;
-
+  font-size: xx-large;
+  line-height: 0.1;
+  position: relative;
+  bottom: -8px;
 }
 
 .is-ok .robo-list-item__status-indicator {
-  color: lightgreen;
+  height: 0.6em;
+  position: relative;
+  bottom: 0.06em;
+  vertical-align: bottom;
 }
 
 .is-bad .robo-list-item__status-indicator {
