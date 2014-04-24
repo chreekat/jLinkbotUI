@@ -1,5 +1,6 @@
 .robo-list-item {
-  padding-bottom: 5px;
+  text-align: center;
+  width: 200px;
 }
 
 .robo-list-item:hover {
@@ -10,6 +11,7 @@
   background-color: rgb(0,255,0);
 
   vertical-align: bottom;
+  height: 24px;
 }
 
 .robo-list-item__robo-id {
@@ -20,7 +22,7 @@
   line-height: 1;
 
   position: relative;
-  bottom: -7px;
+  bottom: -5px;
 }
 
 .robo-list-item__status-indicator {
@@ -37,26 +39,22 @@
   vertical-align: bottom;
 }
 
-.is-bad .robo-list-item__status-indicator {
-  color: red;
-}
-
-.is-warn .robo-list-item__status-indicator {
-  color: yellow;
-}
-
 .robo-list-item__beeper img {
-  height: 13px;
+  height: 12px;
+}
 
-  vertical-align: middle;
+.robo-list-item__beeper {
+  vertical-align: bottom;
+  margin: 0;
+}
+
+.robo-list-item__hdr {
+  display: inline-block;
+  margin: 0 8px;
 }
 
 .robo-list-item__beeper, .robo-list-item__expando-tab {
   visibility: hidden;
-}
-
-.is-dropdown .robo-list-item__expando-tab {
-  visibility: visible;
 }
 
 .robo-list-item:hover .robo-list-item__beeper,
@@ -66,40 +64,15 @@
 
 .robo-list-item__expando-tab {
   display: inline-block;
-
   width: 30px;
 
-  margin-left: 8px;
-  margin-bottom: -2px;
-
-  border-top-left-radius: 5px;
-
   vertical-align: bottom;
-
   text-align: center;
-}
 
-.robo-list-item__dropdown,
-.robo-list-item__expando-tab {
-  background-color: #ddd;
-
-  border-radius: 5px;
-
-  box-shadow: -1px -1px 2px #aaa;
-}
-
-.robo-list-item__dropdown {
-  margin: 2px 8px;
-
-  border-top-left-radius: 0;
-
-  padding: 4px;
-  text-align: right;
-}
-
-.is-dropdown .robo-list-item__expando-tab {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  margin: 0;
+  height: 50%;
+  font-size: 50%;
+  line-height: 1;
 }
 
 .is-usb .conn-type--zigbee {

@@ -1,9 +1,28 @@
+.robo-list-item__dropdown {
+  display: none;
+
+  margin: 2px 16px 0 16px;
+
+  padding: 4px;
+  text-align: right;
+}
 
 .robo-list-item__info {
-  font-size: small;
+  font-size: x-small;
+  line-height: 1.5;
 }
 
 .robo-list-item__conn-type {
   height: 12px;
   vertical-align: middle;
+}
+
+.has-dropdown .robo-list-item__dropdown {
+    display: inherit;
+}
+
+.robo-list-item__fw-btn {
+  font-size: x-small;
+  text-align: right;
+  line-height: 1.5;
 }
