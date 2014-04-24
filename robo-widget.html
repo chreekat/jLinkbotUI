@@ -15,18 +15,20 @@
     <a href="#" class="robo-widget__pull-tab">
       <img src="double-chevron-right.svg">
     </a>
-    <ul class="robo-list robo-widget__content">
-      <li class="robo-list__header robo-widget__top">
+    <ul class="robo-list">
+      <li class="robo-list__header">
         <h1>Robots</h1>
       </li>
       <li class="robo-list-item is-ok">
         <a href="#" class="robo-list-item__expando-tab">
           <img src="double-chevron-down.svg">
         </a>
-        <span class="robo-list-item__robo-indicator">
-          <img src="i-indicator.svg">
-        </span>
-        <span class="robo-list-item__robo-id">5CZ5</span>
+        <div class="robo-list-item__dragee" draggable=true>
+          <span class="robo-list-item__robo-indicator">
+            <img draggable="false" src="i-indicator.svg">
+          </span>
+          <span class="robo-list-item__robo-id">5CZ5</span>
+        </div>
         <span class="robo-list-item__status-indicator">✓</span>
         <button class="robo-list-item__beeper">
           <img src="audio-icon.svg">
@@ -64,7 +66,7 @@
           </div>
         </div>
       </li>
-      <li class="robo-list-item is-ok robo-widget__bottom">
+      <li class="robo-list-item is-ok">
         <a href="#" class="robo-list-item__expando-tab">
           <img src="double-chevron-down.svg">
         </a>

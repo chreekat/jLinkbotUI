@@ -1,4 +1,7 @@
 .robo-widget {
+  position: absolute;
+  height: 3in;
+  width: 2.2in;
   border: 1px hsl(225, 13%, 82%) solid;
   background-color: hsl(225, 8%, 96%);
   border-top-left-radius: 11px;
@@ -14,14 +17,9 @@
   border-bottom-left-radius: 10px;
 }
 
-.robo-widget__content {
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-}
-
 .robo-widget__pull-tab {
   position: absolute;
-  left: -20px;
+  left: -21px;
   top: 60px;
   border: 1px hsl(225, 13%, 82%) solid;
   border-right: 2px hsl(225, 8%, 96%) solid;
