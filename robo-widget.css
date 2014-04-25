@@ -7,14 +7,8 @@
   border-top-left-radius: 11px;
   border-bottom-left-radius: 11px;
   border-right: 0;
-}
 
-.robo-widget__top {
-  border-top-left-radius: 10px;
-}
-
-.robo-widget__bottom {
-  border-bottom-left-radius: 10px;
+  overflow: hidden;
 }
 
 .robo-widget__pull-tab {

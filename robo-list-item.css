@@ -3,14 +3,16 @@
   border-top: 1px solid  #Ddd;
 }
 
+.robo-list-item * {
+  vertical-align: bottom;
+}
+
 .robo-list-item:hover {
   background-color: hsl(225, 12%, 91%);
 }
 
 .robo-list-item__robo-indicator img {
   background-color: rgb(0,255,0);
-
-  vertical-align: text-bottom;
 }
 
 .robo-list-item__dragee {
@@ -20,20 +22,14 @@
 
 .robo-list-item__robo-id {
   font-size: x-large;
-  font-weight: bold;
-  font-family: Courier, monospace;
-
-  line-height: 1;
-
-  vertical-align: bottom;
+  /*font-weight: bold;*/
+  font-family: monospace;
 }
 
 .robo-list-item__status-indicator {
   font-size: 200%;
 
   line-height: 1;
-
-  vertical-align: bottom;
 
 }
 
@@ -51,8 +47,6 @@
 
 .robo-list-item__beeper img {
   height: 13px;
-
-  vertical-align: text-bottom;
 }
 
 .robo-list-item__beeper, .robo-list-item__expando-tab {
@@ -70,10 +64,6 @@
   width: 30px;
 
   border-top-left-radius: 5px;
-
-  vertical-align: text-bottom;
-
-  text-align: center;
 }
 
 .robo-list-item__expando-tab {
